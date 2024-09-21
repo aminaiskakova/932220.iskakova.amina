@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    display: flex;
+   
+}
+.content {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    max-width: 1300px; 
+    min-height: 100vh;
+}
+.home {
+    background-color: bisque;
+    color: black;
+    flex: left;
+    width:400px;
+    height: 90px;
+}
+.conteiner {
+    background-color: aqua;
+    margin-left: 8px;
+    margin-top: 8px;
+    display: flex;
+    width: 116%;
+    height: 600px;
+    margin-right: 5px;
+    border: 2px solid green; 
+}
+
+.grey {
+    background-color: darkgrey;
+    color: black;
+    position: relative;
+
+    height: 100%;
+    width: 1200px;
+   
+}
+
+.grey p {
+    margin-top: 1px;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 1px;
+    
+}
+.text {
+    float: left;
+}
+.image {
+    width: 480px;
+    height: auto;
+    float: right;
+}
+
+@media(max-width:1000px){
+    .home {
+        width: 130px;
+    }
+    .grey {
+      
+        width: 350px;
+    }
+    .conteiner{
+        
+        height: 900px;
+        width: 480px;
+
+    }
+    .image {
+        width: 180px;
+    }
+  
+  }

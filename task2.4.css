@@ -1,0 +1,14 @@
+.container {
+    background-color: blue;
+    color:white;
+    width: 40%;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 1500px) {
+    .container {
+        width: auto;
+       
+    }
+}

@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    display: flex;
+    
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.purple {
+    background-color: blueviolet;
+    color: white;
+    flex: left;
+    position: static;
+    width: 140px;
+    height: 100px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+
+}
+.purple p, .wine p, .orange p, .pink p, .dark-purple {
+    margin-top: 1px;
+   
+}
+.wine {
+    background-color: darkred;
+    color: white;
+    flex: left;
+    position: relative;
+    width: 140px;
+    height: 100px;
+    text-align: left;
+    margin-left: 5px;
+
+}
+.orange {
+    background-color: peru;
+    color: white;
+    flex: left;
+    position: relative;
+    width: 140px;
+    height: 100px;
+    text-align: left;
+    margin-left: 36px;
+    margin-top: -30px;
+
+}
+.pink {
+    background-color: indianred;
+    color: white;
+    flex: left;
+    position: relative;
+    width: 510px;
+    height: 360px;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 30px;
+
+}
+.dark-purple {
+    background-color: rgb(82, 6, 126);
+    color: white;
+    flex: left;
+    position: absolute;
+    width: 280px;
+    height: 180px;
+    text-align: left;
+    margin-left: 235px;
+    margin-top: 420px;
+
+}
+.green {
+    background-color: green;
+    color: white;
+    flex: right;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    text-align: left;
+    right: 0;
+    bottom: 0;
+}
+@media (max-width: 630px) {
+    .green {
+        position: relative;
+
+    }
+    
+}

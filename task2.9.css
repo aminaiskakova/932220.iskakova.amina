@@ -1,0 +1,16 @@
+.container {
+    background-color: blue;
+    color:white;
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.image {
+    float: right;
+    width: 300px;
+    height: auto;
+
+}
+

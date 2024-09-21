@@ -1,0 +1,18 @@
+.green {
+    background-color: green ;
+    color:white;
+    width: 500px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.blue {
+    background-color: blue;
+    color:white;
+    width: 500px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 5px;
+}

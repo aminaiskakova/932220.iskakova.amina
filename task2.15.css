@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;   
+}
+
+.inline-block-row {
+   
+    margin-bottom: 20px; 
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+
+.inline-block-container {
+    display: inline-block;
+    background-color:aquamarine;
+    margin-right: 20px; 
+    margin-top: 20px;
+    height: 60px;
+    width: 130px;
+    padding: 15px;
+}
+
+.beige-container {
+    background-color: bisque; 
+    height: 20px; 
+
+}
+@media (max-width: 1000px) {
+   
+    .inline-block-container {
+        margin-top: 20px;
+        margin-right: 20px;
+
+    }
+}
+
+   

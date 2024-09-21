@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    display: flex;
+   
+}
+.content {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    max-width: 1300px; 
+    min-height: 100vh;
+}
+.home {
+    background-color: bisque;
+    color: black;
+    flex: left;
+    width:400px;
+    height: 90px;
+}
+.conteiner {
+    background-color: aqua;
+    margin-left: 8px;
+    margin-top: 8px;
+    display: flex;
+    width: 116%;
+    height: 260px;
+    margin-right: 5px;
+    border: 2px solid green; 
+}
+
+.grey {
+    background-color: darkgrey;
+    color: black;
+    position: relative;
+    height: 100%;
+    width: 1110px;
+   
+}
+
+.grey p {
+    margin-top: 1px;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 1px;
+    
+}
+
+@media(max-width:1000px){
+    .home {
+        width: 100%;
+        height: 20px;
+        margin-top: 20px;
+    }
+    .grey {
+        margin-top: 20px;
+        width: 450px;
+    }
+    .conteiner{
+        flex-direction: column;
+        height: 800px;
+        width: 450px;
+
+    }
+    .home ul {
+        list-style-type: none;
+        margin: 0;
+        display: flex;
+        gap: 5px;
+    }
+  
+  }

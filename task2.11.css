@@ -1,0 +1,19 @@
+.box {
+    background-color: aqua;
+    width: 100%;
+    height: 200px;
+    border: 2px solid green;
+}
+.image {
+    float: right;
+    width: 226px;
+    height: auto;
+}
+.box p {
+    margin-top: 1px;
+}
+@media (min-width: 200px) {
+    .box {
+        width: 70%;;
+    }
+}

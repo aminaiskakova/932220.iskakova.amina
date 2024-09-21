@@ -1,0 +1,18 @@
+.text {
+    background-color: white ;
+    color: black;
+    width: 500px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.blue {
+    background-color: white;
+    color: black;
+    width: 380px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 10px solid blue;
+}
